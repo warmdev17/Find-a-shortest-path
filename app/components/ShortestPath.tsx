@@ -110,7 +110,7 @@ const ShortestPath = () => {
   }
 
   return (
-    <div className="sm: overflow-x-hidden flex justify-center items-center flex-col min-h-screen w-full">
+    <div className="sm:overflow-x-hidden flex justify-center items-center flex-col min-h-screen w-full">
       <h1 className="text-4xl text-center">{"Dijkstra's Algorithm"}</h1>
       <p className="w-1/2 text-center">
         {
@@ -118,7 +118,7 @@ const ShortestPath = () => {
         }
       </p>
       <textarea
-        className="sm:w-[40px] w-[30px] h-[320px] border-black border-2 rounded mt-6 p-12"
+        className="sm:w-[40px] md:w-[40px] w-[800px] h-[320px] border-black border-2 rounded mt-6 p-12"
         placeholder="Enter graph as JSON"
         value={graph}
         onChange={(e) => setGraph(e.target.value)}
