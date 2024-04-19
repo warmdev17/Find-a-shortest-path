@@ -1,6 +1,7 @@
 ## HOW TO USE THIS FEATURE
 
 You need to create a graph as a json file like THIS
+[FIND A SHORTEST PATH](https://warmdev17.github.io/Find-a-shortest-path/)
 
 ```
 {
