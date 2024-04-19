@@ -111,10 +111,10 @@ const ShortestPath = () => {
 
   return (
     <div className="flex justify-center items-center flex-col min-h-screen w-full">
-      <h1 className="md:mx-2.5 text-4xl text-center lg:text-4xl md:text-4xl">
+      <h1 className="md:mx-2.5 text-4xl text-center lg:text-4xl md:text-6xl">
         {"Dijkstra's Algorithm"}
       </h1>
-      <p className="lg:w-1/2 sm:w-1/3 md:w-1/4 md:mx-12 sm:mx-12 text-center">
+      <p className="lg:w-full lg:px-0 px-8 sm:w-1/3 md:w-full md:mx-12 text-center md:text-2xl lg:text-2xl xl:text-xl xl:w-1/2 lg:text-center">
         {
           "Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a weighted graph, which may represent, for example, road networks. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later."
         }
@@ -122,28 +122,28 @@ const ShortestPath = () => {
       <p>
         Tutorial{" "}
         <a
-          className="underline-offset-4 underline"
+          className="underline-offset-2 underline"
           href="https://github.com/warmdev17/Find-a-shortest-path"
         >
           here
         </a>
       </p>
       <textarea
-        className="lg:w-[800px] sm:w-[40px] md:w-[240px] lg:h-[320px] sm:h-[140px] md:h-[240px] border-black border-2 rounded mt-6 p-12"
+        className="xl:w-[900px] lg:w-[800px] sm:w-[40px] md:w-[800px] lg:h-[320px] sm:h-[140px] md:h-[340px] md:text-2xl border-black border-2 rounded mt-6 p-12"
         placeholder="Enter graph as JSON"
         value={graph}
         onChange={(e) => setGraph(e.target.value)}
       />
       <br />
       <input
-        className="text-black border-2 border-black rounded w-52 h-12 p-2 mb-2"
+        className="md:text-xl md:w-[384px] text-black border-2 border-black rounded w-52 h-12 p-2 mb-2"
         type="text"
         placeholder="Start Node"
         value={startNode}
         onChange={(e) => setStartNode(e.target.value)}
       />
       <input
-        className="text-black border-2 border-black rounded w-52 h-12 p-2 mb-2"
+        className="md:text-xl md:w-[384px] text-black border-2 border-black rounded w-52 h-12 p-2 mb-2"
         type="text"
         placeholder="End Node"
         value={endNode}
@@ -151,7 +151,7 @@ const ShortestPath = () => {
       />
       <br />
       <button
-        className="text-black border-2 border-black rounded h-[64px] w-[256px] hover:bg-black hover:text-white duration-300"
+        className="md:h-80px md:text-xl md:w-[384px] text-black border-2 border-black rounded h-[64px] w-[256px] hover:bg-black hover:text-white duration-300"
         onClick={findShortestPath}
       >
         Find Shortest Path
