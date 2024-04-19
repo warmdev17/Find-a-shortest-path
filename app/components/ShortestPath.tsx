@@ -110,7 +110,7 @@ const ShortestPath = () => {
   }
 
   return (
-    <div className="flex justify-center items-center flex-col min-h-screen w-full">
+    <div className="sm: overflow-x-hidden flex justify-center items-center flex-col min-h-screen w-full">
       <h1 className="text-4xl text-center">{"Dijkstra's Algorithm"}</h1>
       <p className="w-1/2 text-center">
         {
