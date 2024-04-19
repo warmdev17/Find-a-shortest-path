@@ -111,10 +111,10 @@ const ShortestPath = () => {
 
   return (
     <div className="flex justify-center items-center flex-col min-h-screen w-full">
-      <h1 className="text-4xl text-center lg:text-6xl lg:mb-12 md:text-4xl">
+      <h1 className="md:mx-2.5 text-4xl text-center lg:text-6xl lg:mb-12 md:text-4xl">
         {"Dijkstra's Algorithm"}
       </h1>
-      <p className="lg:w-1/2 sm:w-1/3 md:w-1/4 lg:text-2xl text-center">
+      <p className="lg:w-1/2 sm:w-1/3 md:w-1/4 md:mx-2.5 lg:text-2xl text-center">
         {
           "Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a weighted graph, which may represent, for example, road networks. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later."
         }
