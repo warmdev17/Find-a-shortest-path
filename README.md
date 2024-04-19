@@ -13,4 +13,8 @@ You need to create a graph as a json file like THIS
 }
 ```
 
-Then enter Start Node and End Node
+## > [!TIP]
+
+> you can use GPT or Gemini to create a graph as json file, just copy a sample json above and ask them to create it
+
+Then enter Start Node and End Node and find a shortest path
