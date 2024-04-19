@@ -110,15 +110,17 @@ const ShortestPath = () => {
   }
 
   return (
-    <div className="sm:overflow-x-hidden flex justify-center items-center flex-col min-h-screen w-full">
-      <h1 className="text-4xl text-center">{"Dijkstra's Algorithm"}</h1>
-      <p className="w-1/2 text-center">
+    <div className="flex justify-center items-center flex-col min-h-screen w-full">
+      <h1 className="text-4xl text-center lg:text-6xl lg:mb-12 md:text-4xl">
+        {"Dijkstra's Algorithm"}
+      </h1>
+      <p className="lg:w-1/2 sm:w-1/3 md:w-1/4 lg:text-2xl text-center">
         {
           "Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a weighted graph, which may represent, for example, road networks. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later."
         }
       </p>
       <textarea
-        className="sm:w-12 md:w-[50px] w-[800px] h-[320px] border-black border-2 rounded mt-6 p-12"
+        className="lg:w-[800px] sm:w-[40px] md:w-[240px] lg:h-[320px] sm:h-[140px] md:h-[240px] border-black border-2 rounded mt-6 p-12"
         placeholder="Enter graph as JSON"
         value={graph}
         onChange={(e) => setGraph(e.target.value)}
