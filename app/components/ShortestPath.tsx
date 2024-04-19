@@ -111,13 +111,22 @@ const ShortestPath = () => {
 
   return (
     <div className="flex justify-center items-center flex-col min-h-screen w-full">
-      <h1 className="md:mx-2.5 text-4xl text-center lg:text-6xl lg:mb-12 md:text-4xl">
+      <h1 className="md:mx-2.5 text-4xl text-center lg:text-4xl md:text-4xl">
         {"Dijkstra's Algorithm"}
       </h1>
-      <p className="lg:w-1/2 sm:w-1/3 md:w-1/4 md:mx-12 sm:mx-12 lg:text-2xl text-center">
+      <p className="lg:w-1/2 sm:w-1/3 md:w-1/4 md:mx-12 sm:mx-12 text-center">
         {
           "Dijkstra's algorithm is an algorithm for finding the shortest paths between nodes in a weighted graph, which may represent, for example, road networks. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later."
         }
+      </p>
+      <p>
+        Tutorial{" "}
+        <a
+          className="underline-offset-4 underline"
+          href="https://github.com/warmdev17/Find-a-shortest-path"
+        >
+          here
+        </a>
       </p>
       <textarea
         className="lg:w-[800px] sm:w-[40px] md:w-[240px] lg:h-[320px] sm:h-[140px] md:h-[240px] border-black border-2 rounded mt-6 p-12"
