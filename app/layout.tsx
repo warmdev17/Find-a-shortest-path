@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={spaceGrotesk.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
